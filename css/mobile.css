@@ -1,10 +1,10 @@
 ﻿body {
 	position: relative;
-	max-width: 500px;
+	width: 240px;
 	height: 100%;
 	margin: 0px auto 0px auto;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #f3f3f3;
 	color: #666;
 	font-family: Verdana, Arial, sans-serif;
@@ -26,16 +26,11 @@ nav#tabs {
 
 nav#tabs li {
 	float:left;
-	width: 27%;
+	width: 30%;
 	height: 20px;
-	margin-right:10px;
 	background-color: #fff;
 	text-align: center;
 	padding-bottom: 5px;
-	list-style:none;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius:10px;
 }
 
 nav#tabs li.moreTabs {
@@ -43,7 +38,7 @@ nav#tabs li.moreTabs {
 }
 
 nav#tabs li + li {
-	*border-left: 1px solid #666;
+	border-left: 1px solid #666;
 }
 	
 nav#tabs li a {
