@@ -6,27 +6,28 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
 	<script>
-		$(function() {
-			$( "nav#tabs" ).tabs();
+		$(document).ready(function() {
+			$('#tabs').tabs();
 		});
 	</script>
 	<link rel="stylesheet" href="css/reset-min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/jquery-ui-1.8.9.custom.css">
 </head>
 <body>
+<div id="container">
 <header>
 	<h1>Soulsight Web App</h1>
 	<img src="images/soulsight-logo.png" />
-	<nav id="tabs">
+</header>
+<section id="wrap">
+<div id="tabs">
 		<ul>
 			<li><a href="#tabs-1">Featured</a></li>
 			<li><a href="#tabs-2">Colors</a></li>
 			<li><a href="#tabs-3">Category</a></li>
 			<li class="moreTabs"><a href="#tabs-4">></a></li>
 		</ul>
-	</div>
-</header>
-<section>
 	<div id="tabs-1">
 		testing 1
 	</div>
@@ -34,6 +35,8 @@
 		testing 2
 	</div>
 	<div id="tabs-3">
+	</div>
+	<div id="tabs-4">
 	<form>
 		<h2>Sign Up</h2>
 		<fieldset>
@@ -49,9 +52,11 @@
 		</fieldset>
 	</form>
 	</div>
+</div>
 </section>
 <footer>
 	<small>&copy; Soulsight 2011</small>
 </footer>
+</div>
 </body>
 </html>

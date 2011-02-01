@@ -1,10 +1,14 @@
 ﻿body {
+	background: transparent url(../images/bg.gif);
+}
+
+#container{
 	position: relative;
 	min-width: 500px;
 	max-width: 700px;
 	height: 100%;
 	margin: 0px auto 0px auto;
-	background-color: #f3f3f3;
+	background-color: #00abbe;
 	color: #666;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: small;
@@ -29,6 +33,10 @@ h2 {
 	font-weight: bold;
 }
 
+section#wrap {
+	background-color: #f3f3f3;
+}
+
 form {
 	height: 100%;
 }
@@ -38,7 +46,7 @@ fieldset {
 	padding: 5px 0px 5px 0px;
 }
 
-header  {
+header {
 	background-color: #00abbe;
 }
 
@@ -85,13 +93,15 @@ nav#tabs li a:hover {
 	background-color: #d6d6d6;
 }
 
-#tabs-1, #tabs-2, #tabs-3 {
+#tabs-1, #tabs-2, #tabs-3, #tabs-4 {
 	background-color: #fff;
 	margin: 5px 0px 5px 0px;
 	padding:5px;
 }
 
 footer {
+	width: 100%;
 	text-align: center;
-	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
+	background-color: #f3f3f3;
 }
