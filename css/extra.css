@@ -1,0 +1,38 @@
+﻿nav#tabs {
+	height:30px;
+}
+
+nav#tabs li {
+	float:left;
+	width: 27%;
+	height: 20px;
+	margin-left: 10px;
+	text-align: center;
+	padding-bottom: 5px;
+	list-style:none;
+}
+
+nav#tabs li.moreTabs {
+	width: 9%;
+}
+
+nav#tabs li + li {
+	*border-left: 1px solid #666;
+}
+	
+nav#tabs li a {
+	background-color: #fff;
+	color: #666;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+nav#tabs li a:hover {
+	background-color: #d6d6d6;
+}
