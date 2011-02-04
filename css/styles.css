@@ -8,12 +8,12 @@
 	max-width: 700px;
 	height: 100%;
 	margin: 0px auto 0px auto;
-	background-color: #00abbe;
+	background-color: #fff;
 	color: #666;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: small;
 	line-height: 20px;
-	border: 10px solid #00abbe;
+	border: 10px solid #f3f3f3;
 }
 
 header {
@@ -39,8 +39,8 @@ header h1 {
 }
 
 #wrap, section#wrap {
-	background-color: #f3f3f3;
-	padding: 5px 10px 5px 10px;
+	background-color: #fff;
+	padding: 5px 50px 5px 50px;
 }
 
 h2 {
@@ -77,14 +77,18 @@ fieldset {
 }
 
 #tabs-1, #tabs-2, #tabs-3, #tabs-4 {
-	background-color: #fff;
+	background: url(../images/pink-pattern.jpg);
 	margin: 5px 0px 5px 0px;
 	padding:5px;
+}
+
+#tabs-1 {
+	border: 3px solid #891e3d;
 }
 
 footer {
 	text-align: center;
 	padding: 5px 0px 5px 0px;
-	background-color: #f3f3f3;
+	background-color: #fff;
 	display: block;
 }
