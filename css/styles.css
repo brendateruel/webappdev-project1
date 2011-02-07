@@ -1,12 +1,11 @@
 ﻿body {
 	background: transparent url(../images/bg.gif);
+	height: 100%;
 }
 
 #container{
-	position: relative;
 	min-width: 500px;
 	max-width: 700px;
-	height: 100%;
 	margin: 0px auto 0px auto;
 	background-color: #fff;
 	color: #666;
@@ -55,11 +54,12 @@ h2 {
 	border-top: 1px solid #666;
 	border-bottom: 1px solid #666;
 	background-color: #f3f3f3;
+	text-indent: 20px;
 }
 
 #color-palettes dd {
 	background-color: #ffffff;
-	padding-left: 40px;
+	padding-left: 60px;
 }
 
 form {
@@ -73,17 +73,53 @@ fieldset {
 
 #name, #email {
 	position: absolute;
-	left: 60px;
+	left: 70px;
 }
 
-#tabs-1, #tabs-2, #tabs-3, #tabs-4 {
-	background: url(../images/pink-pattern.jpg);
-	margin: 5px 0px 5px 0px;
-	padding:5px;
+input[type="submit"] {
+	background: #d6d6d6;
+	color: #666666;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;	
+	padding: 5px;
+	margin: 15px 0px 15px 0px;
+}
+
+#tabs-1-button.ui-state-active, #tabs-1-button a:hover {
+	display: block;
+	background: #5ebec9;
 }
 
 #tabs-1 {
-	border: 3px solid #891e3d;
+	border: 4px solid #5ebec9;
+}
+
+#tabs-2-button.ui-state-active, #tabs-2-button a:hover {
+	display: block;
+	background: #c21457;
+}
+
+#tabs-2 {
+	border: 4px solid #c21457;
+}
+
+#tabs-3-button.ui-state-active, #tabs-3-button a:hover {
+	display: block;
+	background: #0c3d6a;
+}
+
+#tabs-3 {
+	border: 4px solid #0c3d6a;
+}
+
+#tabs-4 {
+	border: 4px solid #d6d6d6;
+}
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4 {
+	background: #ffffff;
+	padding: 10px 15px 25px 15px;
 }
 
 footer {
