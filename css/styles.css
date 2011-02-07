@@ -1,6 +1,6 @@
 ﻿body {
 	background: transparent url(../images/bg.gif);
-	height: 100%;
+	height: 700px;
 }
 
 #container{
@@ -17,24 +17,28 @@
 
 header {
 	background-color: #00abbe;
-	height:50px;
+	height: 120px;
+	text-align: center;
 }
 
 header img {
+	position: relative;
+	top: 10px;
 	float: right;
 	margin-right: 250px;
 	clear: both;
 }
 	
 header h1 {
-	position: absolute;
 	color: #000000;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	text-align: center;
 	font-size: 1.1em;
 	font-weight: bold;
 	text-indent: -11000px;	
+}
+
+header h2 {
+	color: #ffffff;
+	padding: 20px 0px 15x 0px;
 }
 
 #wrap, section#wrap {
