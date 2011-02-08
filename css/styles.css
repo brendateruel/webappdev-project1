@@ -16,7 +16,7 @@ a:hover {
 	min-width: 500px;
 	max-width: 700px;
 	margin: 0px auto 0px auto;
-	background-color: #fff;
+	background-color: transparent;
 	color: #666;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: small;
@@ -49,7 +49,7 @@ header h1 {
 
 header h2 {
 	color: #f3f3f3;
-	padding: 5px 0px 15x 0px;
+	padding: 0px 0px 15px 0px;
 	text-transform: lowercase;
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
@@ -121,15 +121,25 @@ input[type="submit"] {
 	margin: 15px 0px 15px 0px;
 }
 
+#tabs-1-button {
+	-moz-border-radius-bottomleft: 10px; 
+	-webkit-border-bottom-left-radius: 10px; 
+	border-bottom-left-radius: 10px; 
+}
+
 #tabs-1-button.ui-state-active, #tabs-1-button a:hover {
 	display: block;
 	background: #5ebec9;
+  color: #ffffff;
 	-moz-border-radius-topleft: 10px; 
 	-webkit-border-top-left-radius: 10px; 
 	border-top-left-radius: 10px; 
 	-moz-border-radius-topright: 10px; 
 	-webkit-border-top-right-radius: 10px; 
 	border-top-right-radius: 10px; 
+	-moz-border-radius-bottomleft: 10px; 
+	-webkit-border-bottom-left-radius: 10px; 
+	border-bottom-left-radius: 10px; 
 }
 
 #tabs-1 {
