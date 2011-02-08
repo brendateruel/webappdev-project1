@@ -25,7 +25,8 @@ a:hover {
 }
 
 header {
-	background-color: #00abbe;
+  display: block;	
+  background-color: #00abbe;
 	height: 110px;
 	text-align: center;
 }
@@ -121,12 +122,6 @@ input[type="submit"] {
 	margin: 15px 0px 15px 0px;
 }
 
-#tabs-1-button {
-	-moz-border-radius-bottomleft: 10px; 
-	-webkit-border-bottom-left-radius: 10px; 
-	border-bottom-left-radius: 10px; 
-}
-
 #tabs-1-button.ui-state-active, #tabs-1-button a:hover {
 	display: block;
 	background: #5ebec9;
@@ -137,9 +132,6 @@ input[type="submit"] {
 	-moz-border-radius-topright: 10px; 
 	-webkit-border-top-right-radius: 10px; 
 	border-top-right-radius: 10px; 
-	-moz-border-radius-bottomleft: 10px; 
-	-webkit-border-bottom-left-radius: 10px; 
-	border-bottom-left-radius: 10px; 
 }
 
 #tabs-1 {
