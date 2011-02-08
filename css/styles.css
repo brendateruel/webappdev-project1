@@ -3,6 +3,15 @@
 	height: 700px;
 }
 
+a {
+	color: #d92f6f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 #container{
 	min-width: 500px;
 	max-width: 700px;
@@ -17,16 +26,18 @@
 
 header {
 	background-color: #00abbe;
-	height: 120px;
+	height: 110px;
 	text-align: center;
 }
 
+header ul {
+	list-style: none;
+}
+
 header img {
-	position: relative;
-	top: 10px;
-	float: right;
-	margin-right: 250px;
-	clear: both;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	transform: rotate(-3deg);
 }
 	
 header h1 {
@@ -37,8 +48,12 @@ header h1 {
 }
 
 header h2 {
-	color: #ffffff;
-	padding: 20px 0px 15x 0px;
+	color: #f3f3f3;
+	padding: 5px 0px 15x 0px;
+	text-transform: lowercase;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	transform: rotate(-3deg);
 }
 
 #wrap, section#wrap {
@@ -47,6 +62,15 @@ header h2 {
 }
 
 h2 {
+	color: #666;
+	margin: 0px 0px 5px 0px;
+	padding: 5px 0px 10px 0px;
+	font-size: .9em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
 	color: #666;
 	margin: 0px 0px 5px 0px;
 	padding: 5px 0px 10px 0px;
@@ -63,11 +87,18 @@ h2 {
 
 #color-palettes dd {
 	background-color: #ffffff;
-	padding-left: 60px;
+	padding: 10px 0px 10px 60px;
+}
+
+#color-palettes dd ul li {
+	padding: 0px 0px 10px 0px;
+}
+
+#color-palettes dd ul li:last-child {
+	padding: 0px;
 }
 
 form {
-	height: 100%;
 }
 
 fieldset {
@@ -93,6 +124,12 @@ input[type="submit"] {
 #tabs-1-button.ui-state-active, #tabs-1-button a:hover {
 	display: block;
 	background: #5ebec9;
+	-moz-border-radius-topleft: 10px; 
+	-webkit-border-top-left-radius: 10px; 
+	border-top-left-radius: 10px; 
+	-moz-border-radius-topright: 10px; 
+	-webkit-border-top-right-radius: 10px; 
+	border-top-right-radius: 10px; 
 }
 
 #tabs-1 {
@@ -102,6 +139,12 @@ input[type="submit"] {
 #tabs-2-button.ui-state-active, #tabs-2-button a:hover {
 	display: block;
 	background: #c21457;
+	-moz-border-radius-topleft: 10px; 
+	-webkit-border-top-left-radius: 10px; 
+	border-top-left-radius: 10px; 
+	-moz-border-radius-topright: 10px; 
+	-webkit-border-top-right-radius: 10px; 
+	border-top-right-radius: 10px; 
 }
 
 #tabs-2 {
@@ -111,6 +154,12 @@ input[type="submit"] {
 #tabs-3-button.ui-state-active, #tabs-3-button a:hover {
 	display: block;
 	background: #0c3d6a;
+	-moz-border-radius-topleft: 10px; 
+	-webkit-border-top-left-radius: 10px; 
+	border-top-left-radius: 10px; 
+	-moz-border-radius-topright: 10px; 
+	-webkit-border-top-right-radius: 10px; 
+	border-top-right-radius: 10px; 
 }
 
 #tabs-3 {
@@ -124,6 +173,16 @@ input[type="submit"] {
 #tabs-1, #tabs-2, #tabs-3, #tabs-4 {
 	background: #ffffff;
 	padding: 10px 15px 25px 15px;
+	-moz-border-radius-topleft: 10px; 
+	-webkit-border-top-left-radius: 10px; 
+	border-top-left-radius: 10px; 
+	-moz-border-radius-topright: 10px; 
+	-webkit-border-top-right-radius: 10px; 
+	border-top-right-radius: 10px; 
+}
+
+#tabs-1-button, #tabs-2-button, #tabs-3-button, #tabs-4-button {
+	text-transform: uppercase;
 }
 
 footer {
