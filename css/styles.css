@@ -1,6 +1,6 @@
 ﻿body {
-	background: transparent url(../images/bg.gif);
-	height: 700px;
+	background: transparent url(../images/paper-pattern.png);
+	min-height: 768px;
 }
 
 a:hover {
@@ -15,13 +15,10 @@ a:hover {
 	color: #666;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: small;
-	line-height: 20px;
-	border: 10px solid #f3f3f3;
 }
 
 header {
   display: block;	
-  background-color: #00abbe;
 	height: 110px;
 	text-align: center;
 }
@@ -31,6 +28,11 @@ header ul {
 }
 
 header img {
+	position: relative;
+	top: 30px;
+	left: 23px;
+	width: 251px;
+	height: 61px;
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
 	transform: rotate(-3deg);
@@ -40,12 +42,13 @@ header h1 {
 	color: #000000;
 	font-size: 1.1em;
 	font-weight: bold;
-	text-indent: -11000px;	
+	text-indent: -11000px;
 }
 
 header h2 {
-	color: #f3f3f3;
-	padding: 0px 0px 15px 0px;
+	font-size: 1.1em;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
 	text-transform: lowercase;
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
@@ -53,8 +56,9 @@ header h2 {
 }
 
 #wrap, section#wrap {
-	background-color: #fff;
-	padding: 5px 50px 5px 50px;
+	background: transparent;
+	padding: 0px 50px 5px 50px;
+	line-height: 20px;
 }
 
 h2 {
@@ -129,6 +133,10 @@ input[type="submit"] {
 	border-top-right-radius: 10px; 
 }
 
+#tabs-1-button {
+	background: #54a9b3;
+}
+
 #tabs-1 {
 	border: 4px solid #5ebec9;
 }
@@ -144,13 +152,17 @@ input[type="submit"] {
 	border-top-right-radius: 10px; 
 }
 
+#tabs-2-button {
+	background: #840e3b;
+}
+
 #tabs-2 {
 	border: 4px solid #c21457;
 }
 
 #tabs-3-button.ui-state-active, #tabs-3-button a:hover {
 	display: block;
-	background: #0c3d6a;
+	background: #125b9e;
 	-moz-border-radius-topleft: 10px; 
 	-webkit-border-top-left-radius: 10px; 
 	border-top-left-radius: 10px; 
@@ -159,8 +171,12 @@ input[type="submit"] {
 	border-top-right-radius: 10px; 
 }
 
+#tabs-3-button {
+	background: #07243f;
+}
+
 #tabs-3 {
-	border: 4px solid #0c3d6a;
+	border: 4px solid #125b9e;
 }
 
 #tabs-4 {
@@ -190,6 +206,7 @@ input[type="submit"] {
 footer {
 	text-align: center;
 	padding: 5px 0px 5px 0px;
-	background-color: #fff;
+	background: transparent;
+	color: #ffffff;
 	display: block;
 }
