@@ -5,6 +5,8 @@
 	<title>Soulsight Web App</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+	<script src="../jquery.min.js"></script>
+	<script src="../jquery-ui.min.js"></script>
 	<script src="js/script.js"></script>
 	<link rel="stylesheet" href="css/reset-min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -14,10 +16,14 @@
 <body>
 <div id="container">
 <header>
+	<section id="daily-find">
+		<img src="" alt="" />
+		<h3>Daily Find:</h3>
+		<p>Did you know...? Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</section>
 	<ul>
-		<li><img src="images/soulsight_logo_gr.png" alt="soulsight logo" /></li>
+		<li><img src="images/soulfinder.png" alt="soulsight logo" /></li>
 		<li><h1>Soulsight</h1></li>
-		<li><h2>soulspiration guide</h2></li>
 	</ul>
 </header>
 <div id="wrap">
@@ -26,12 +32,26 @@
 		<ul>
 			<li id="tabs-1-button"><a href="#tabs-1">Featured</a></li>
 			<li id="tabs-2-button"><a href="#tabs-2">Colors</a></li>
-			<li id="tabs-3-button"><a href="#tabs-3">Strategy</a></li>
-			<li class="moreTabs"><a href="#tabs-4">></a></li>
+			<li id="tabs-3-button"><a href="#tabs-3">Type</a></li>
+			<li id="tabs-4-button"><a href="#tabs-4">Culture</a></li>
+			<li id="tabs-5-button"><a href="#tabs-5">Strategy</a></li>
+			<li class="moreTabs"><a href="#tabs-6">></a></li>
 		</ul>
 	<div id="tabs-1">
-		<h2>Tip of the Day</h2>
-		<p>Did you know...?</p>
+		<h2>Deconstructing the Soul of a Design</h2>
+		<p>This Week's Case:</p>
+		<div id="featured">
+			<img src="images/ftd.png" />
+			<ul id="blocks">
+				<li id="color-block"><img src="images/blocks.png" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere augue nunc.</li>
+				<li id="color-bullet"></li>
+				<li id="type-block"></li>
+				<li id="culture-block"></li>
+				<li id="strategy-block"></li>
+			</ul>
+			<ul id="breakdown">
+			</ul>
+		</div>
 	</div>
 	<div id="tabs-2">
 		<dl id="color-palettes"><h2>Colors</h2>
@@ -49,8 +69,40 @@
 		</dl>
 	</div>
 	<div id="tabs-3">
+		<dl id="typography"><h2>Type</h2>
+			<dt id="type-style1">"Soulinspired"</dt>
+				<dd id="fonts1"><img src="images/palette-1a.png" /></dd>
+			<dt id="type-style2">Whimsical</dt>
+				<dd id="fonts2"><img src="images/palette-2a.png" /></dd>
+			<dt id="type-style3">Neutrals</dt>
+				<dd id="fonts3">
+					<ul>
+						<li><img src="images/palette-3a.png" /></li>
+						<li><img src="images/palette-3b.png" /></li>
+					</ul>
+				</dd>
+		</dl>
 	</div>
 	<div id="tabs-4">
+	</div>
+	<div id="tabs-5">
+		<h2>Strategy</h2>
+			<ul>
+				<li>Who is the target customer?</li>
+					<ul>
+						<li><a href="" >Read this article on our blog</a></li>
+					</ul>
+				<li>What is the brand story?</li>
+					<ul>
+						<li><a href="" >Read this article on our blog</a></li>
+					</ul>
+				<li>What is the essence of the brand?</li>
+					<ul>
+						<li><a href="" >Read this article on our blog</a></li>
+					</ul>
+			</ul>
+	</div>
+	<div id="tabs-6">
 	<form>
 		<h2>Sign up for our mailing list:</h2>
 		<fieldset>
