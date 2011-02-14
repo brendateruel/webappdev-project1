@@ -55,6 +55,21 @@ $('dt#type-style2').click(function() {
 $('dt#type-style3').click(function() {
 	$('dd#fonts3').slideToggle('3000');
 });	
+
+	$('#influence2').hide();
+	$('#influence3').hide();
+	$('#influence1 .next-arrow').click (function() {
+			$('#influence1').hide();
+			$('#influence2').fadeIn();
+	});
+	$('#influence2 .next-arrow').click (function() {
+			$('#influence2').hide();
+			$('#influence3').fadeIn();
+	});
+	$('#influence3 .next-arrow').click (function() {
+			$('#influence3').hide();
+			$('#influence1').fadeIn();
+	});
 });	
 
 	

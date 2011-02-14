@@ -57,7 +57,7 @@ header h2 {
 header h3 {
 	color: #444;
 	margin: 0px 0px 5px 0px;
-	padding: 5px 0px 10px 0px;
+	padding: 5px 0px 5px 0px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ header h3 {
 	margin: 0px 15px 10px 5px;
 }
 
-#wrap, section#wrap {
+section#wrap {
 	background: transparent;
 	padding: 0px 20px 5px 20px;
 	line-height: 20px;
@@ -107,9 +107,9 @@ h2 {
 	text-indent: 20px;
 }
 
-#color-palettes dd, #typography dd {
+#color-palettes dd {
 	background-color: #ffffff;
-	padding: 10px 0px 10px 60px;
+	padding: 10px 10px 10px 60px;
 }
 
 #color-palettes dd ul li, #typography dd ul li  {
@@ -120,17 +120,56 @@ h2 {
 	padding: 0px;
 }
 
+#typography dd {
+	background-color: #ffffff;
+	padding: 10px 20px 10px 0px;
+}
+
+#fonts1, #fonts2, #fonts3 ul li {
+	margin: 15px 15px 15px 10px;
+}
+
+#fonts1 {
+	font-family: 'Kreon', serif;
+	font-size: 3em;
+}
+
+#fonts2 {
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 2.3em;
+}
+
+#fonts3 li {
+	font-family: 'Meddon', serif;
+	font-size: 2.2em;
+}
+
+#fonts3 li + li {
+	font-family: 'Dancing Script', serif;
+	font-size: 3em;
+}
+
+ul#strategy-guides {
+	padding: 0px 50px 0px 30px;
+}
+
+.article-link {
+	padding: 0px 0px 20px 30px;
+}
+
 form {
+	padding: 30px 0px 20px 0px;
 }
 
 fieldset {
 	display: block;
-	padding: 5px 0px 5px 0px;
+	padding: 5px 50px 5px 100px;
 }
 
 #name, #email {
 	position: absolute;
-	left: 70px;
+	left: 180px;
+	width: 250px;
 }
 
 input[type="submit"] {
@@ -140,16 +179,33 @@ input[type="submit"] {
 	-moz-border-radius: 14px;
 	border-radius: 14px;	
 	padding: 5px;
-	margin: 15px 0px 15px 0px;
+	margin: 15px 0px 15px 230px;
 }
 
-#featured {
+#featured, #culture {
 	text-align: center;
-	padding: 0px 10px 50px 10px;
+	padding: 0px 30px 50px 30px;
 }
 
-#featured img {
-	padding: 40px 0px 40px 0px;
+.influence-detail {
+	text-align: left;
+	padding: 20px 10px 0px 10px;
+}
+
+.next-arrow {
+	padding: 20px 20px 0px 20px;
+	color: #d92f6f;
+	text-transform: uppercase;
+}
+
+#culture p img {
+	position: relative;
+	top: 5px;
+	padding: 0px 0px 0px 5px;
+}	
+
+#featured img, #culture ul li img {
+	padding: 20px 0px 0px 0px;
 }
 
 #featured ul li {
@@ -187,6 +243,10 @@ ul#blocks li#type-block, ul#blocks li#strategy-block {
 	color: #fff;
 }
 
+#color-bullet h2 {
+	color: #c21457;
+}
+
 #type-block {
 	background-color: #07243f;
 	opacity: 0.3;
@@ -195,6 +255,10 @@ ul#blocks li#type-block, ul#blocks li#strategy-block {
 #type-block:hover, .type-block-active {
 	background-color: #125b9e;
 	opacity: 1.0;
+}
+
+#type-bullet h2 {
+	color: #125b9e;
 }
 
 #culture-block {
@@ -207,6 +271,10 @@ ul#blocks li#type-block, ul#blocks li#strategy-block {
 	opacity: 1.0;
 }
 
+#culture-bullet h2 {
+	color: #5ebec9;
+}
+
 #strategy-block {
 	background-color: #8d5493;
 	opacity: 0.3;
@@ -215,6 +283,10 @@ ul#blocks li#type-block, ul#blocks li#strategy-block {
 #strategy-block:hover, .strategy-block-active {
 	background-color: #bd70c5;
 	opacity: 1.0;
+}
+
+#strategy-bullet h2 {
+	color: #bd70c5;
 }
 
 #tabs-2-button.ui-state-active, #tabs-2-button a:hover {
@@ -301,6 +373,7 @@ ul#blocks li#type-block, ul#blocks li#strategy-block {
 #tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5, #tabs-6 {
 	background: #fdfdfd;
 	padding: 10px 15px 25px 15px;
+	min-height: 300px;
 	-moz-border-radius-topleft: 10px; 
 	-webkit-border-top-left-radius: 10px; 
 	border-top-left-radius: 10px; 
