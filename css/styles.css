@@ -1,6 +1,6 @@
 ﻿body {
 	background: transparent url(../images/paper-pattern.png);
-	min-width: 500px;
+	min-width: 580px;
 	min-height: 768px;
 }
 
@@ -9,7 +9,7 @@ a:hover {
 }
 
 #container{
-	width: 500px;
+	width: 580px;
 	margin: 0px auto 0px auto;
 	background-color: transparent;
 	color: #666;
@@ -26,11 +26,12 @@ header ul {
 	list-style: none;
 }
 
-header img {
+header ul li img {
 	position: relative;
 	top: 20px;
 	width: 375px;
 	height: 87px;
+	margin-bottom: 10px;
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
 	transform: rotate(-3deg);
@@ -75,6 +76,13 @@ header h3 {
 	border-bottom-right-radius: 20px;
 	line-height: 15px;
 	text-align: left;
+}
+
+#daily-find img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 0px 15px 10px 5px;
 }
 
 #wrap, section#wrap {
@@ -144,25 +152,53 @@ input[type="submit"] {
 	padding: 50px 0px 50px 0px;
 }
 
-#blocks {
+#featured ul li {
 	text-align: left;
 }
 
-#blocks img {
+ul#blocks li#color-block, ul#blocks li#culture-block {
+	float: left;
 	width: 50px;
 	height: 50px;
-	float: left;
-	padding: 0px 15px 15px 0px;
 }
 
-#blocks-1 li, #blocks-2 li {
-	padding: 0px;
-	margin: 0px;
-	display: block;
-	height: 50px;
+ul#blocks li#type-block, ul#blocks li#strategy-block {
+	position: relative;
+	left: 50px;
 	width: 50px;
-	background-color: #000000;
-	float: left;
+	height: 50px;
+}
+
+#color-block {
+	background-color: #840e3b;
+}
+
+.color-block-active {
+	background-color: #c21457;
+}
+
+#type-block {
+	background-color: #07243f;
+}
+
+.type-block-active {
+	background-color: #125b9e;
+}
+
+#culture-block {
+	background-color: #54a9b3;
+}
+
+.culture-block-active {
+	background-color: #5ebec9;
+}
+
+#strategy-block {
+	background-color: #8d5493;
+}
+
+.strategy-block-active {
+	background-color: #bd70c5;
 }
 
 #tabs-2-button.ui-state-active, #tabs-2-button a:hover {
@@ -206,7 +242,7 @@ input[type="submit"] {
 #tabs-4-button.ui-state-active, #tabs-4-button a:hover {
 	display: block;
 	background: #5ebec9;
-  color: #ffffff;
+	color: #ffffff;
 	-moz-border-radius-topleft: 10px; 
 	-webkit-border-top-left-radius: 10px; 
 	border-top-left-radius: 10px; 
