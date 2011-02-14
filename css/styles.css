@@ -145,15 +145,23 @@ input[type="submit"] {
 
 #featured {
 	text-align: center;
-	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 50px 10px;
 }
 
 #featured img {
-	padding: 50px 0px 50px 0px;
+	padding: 40px 0px 40px 0px;
 }
 
 #featured ul li {
 	text-align: left;
+}
+
+#featured ul li ul#blocks {
+	float: left;
+}
+
+#breakdown {
+	margin: 0px 20px 0px 120px;
 }
 
 ul#blocks li#color-block, ul#blocks li#culture-block {
@@ -170,35 +178,43 @@ ul#blocks li#type-block, ul#blocks li#strategy-block {
 }
 
 #color-block {
-	background-color: #840e3b;
+	background-color: rgba(132, 14, 59, .3);
+	color: #000;
 }
 
-.color-block-active {
+#color-block:hover, .color-block-active {
 	background-color: #c21457;
+	color: #fff;
 }
 
 #type-block {
 	background-color: #07243f;
+	opacity: 0.3;
 }
 
-.type-block-active {
+#type-block:hover, .type-block-active {
 	background-color: #125b9e;
+	opacity: 1.0;
 }
 
 #culture-block {
 	background-color: #54a9b3;
+	opacity: 0.3;
 }
 
-.culture-block-active {
+#culture-block:hover, .culture-block-active {
 	background-color: #5ebec9;
+	opacity: 1.0;
 }
 
 #strategy-block {
 	background-color: #8d5493;
+	opacity: 0.3;
 }
 
-.strategy-block-active {
+#strategy-block:hover, .strategy-block-active {
 	background-color: #bd70c5;
+	opacity: 1.0;
 }
 
 #tabs-2-button.ui-state-active, #tabs-2-button a:hover {
