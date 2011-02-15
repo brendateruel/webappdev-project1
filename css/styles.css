@@ -1,8 +1,5 @@
-﻿body {
-	background: transparent url(../images/paper-pattern.png) repeat;
-	min-width: 580px;
-	min-height: 768px;
-	overflow: auto;
+﻿html, body {
+	background: transparent url(../images/paper-pattern.png) repeat 0 0;
 }
 
 a:hover {
@@ -10,6 +7,7 @@ a:hover {
 }
 
 #container{
+	height: auto;
 	width: 580px;
 	margin: 0px auto 0px auto;
 	background-color: transparent;
