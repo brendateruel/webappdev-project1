@@ -216,7 +216,7 @@ input[type="submit"] {
 }
 
 #breakdown {
-	margin: 0px 20px 0px 120px;
+	margin: 0px 20px 0px 20px;
 }
 
 ul#blocks li#color-block, ul#blocks li#culture-block {
